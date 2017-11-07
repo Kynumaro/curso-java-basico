@@ -27,8 +27,8 @@ public class Exer15 {
         System.out.println("Entre com o lado 3:");
         int lado3 = scan.nextInt();
         
-        if (((lado1 + lado2) > lado3) || 
-                ((lado1 + lado3) > lado2) || 
+        if (((lado1 + lado2) > lado3) && 
+                ((lado1 + lado3) > lado2) && 
                 ((lado2 + lado3) > lado1)){
             
             if (lado1 == lado2 && lado1 == lado3 && lado2 == lado3){
